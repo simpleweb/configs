@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "xo",
+    "prettier",
+    "plugin:react/recommended",
+    "plugin:flowtype/recommended"
+  ],
+  "env": {
+    "react-native/react-native": true,
+    "jest": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "react-native",
+    "prettier",
+    "flowtype"
+  ],
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  }
+}
